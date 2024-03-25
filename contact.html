@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Francois Disubi</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="text-center flex flex-column gap-m flex-wrap padding-y-s sm-flex-row sm-flex-justify-space-between"
+      >
+        <div>
+          <h1>
+            <a href="index.html">Francois Disubi</a>
+          </h1>
+        </div>
+
+        <div>
+          <ul
+            class="list-style-none flex pl-0 flex-align-center flex-justify-center"
+          >
+            <li class="menu-item">
+              <a href="cv.html">CV</a>
+            </li>
+            <li class="menu-item"><a href="projets.html">Projets</a></li>
+            <li class="menu-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main
+      class="max-width-1100 margin-auto padding-y-xxl lg-flex flex-wrap flex-justify-space-between"
+    >
+      <div class="text-center padding-y-xs flex-1 md-text-left">
+        <h2 class="">Contact</h2>
+        <section class="padding-y-m">
+          <h3>Téléphone</h3>
+          <p>
+            <a href="tel:98834535">98834535</a>
+          </p>
+        </section>
+        <section>
+          <h3>Email</h3>
+          <p>
+            <a href="mailto:francois@kadea.co">francois@kadea.co</a>
+          </p>
+        </section>
+      </div>
+      <div class="flex-1">
+        <form id="contact-form">
+          <div class="sm-flex flex-wrap flex-justify-space-between gap-l">
+            <div class="flex-1">
+              <div class="padding-y-xs">
+                <label for="nom" class="width-full">Votre nom</label>
+              </div>
+              <div>
+                <input
+                  class="width-full height-40"
+                  type="text"
+                  name="nom"
+                  id="nom"
+                />
+              </div>
+              <div>
+                <p id="nomError" class="text-red"></p>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="padding-y-xs">
+                <label for="prénom" class="width-full">Votre prénom</label>
+              </div>
+              <div>
+                <input
+                  class="width-full height-40"
+                  type="text"
+                  name="prénom"
+                  id="prénom"
+                />
+              </div>
+              <div>
+                <p id="prénomError" class="text-red"></p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="padding-y-s sm-flex flex-wrap flex-justify-space-between gap-l"
+          >
+            <div class="flex-1">
+              <div class="padding-y-xs">
+                <label class="width-full" for="email">Votre Email</label>
+              </div>
+              <div>
+                <input
+                  class="width-full height-40"
+                  type="email"
+                  name="email"
+                  id="email"
+                />
+              </div>
+              <div>
+                <p id="emailError" class="text-red"></p>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="padding-y-xs">
+                <label class="width-full" for="objet"
+                  >L'objet de votre message</label
+                >
+              </div>
+              <div>
+                <input
+                  class="width-full height-40"
+                  type="text"
+                  name="objet"
+                  id="objet"
+                />
+              </div>
+              <div>
+                <p id="objetError" class="text-red"></p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap flex-justify-space-between gap-l">
+            <div class="flex-1">
+              <div class="padding-y-xs">
+                <label class="width-full" for="message">Votre message</label>
+              </div>
+              <div class="sm-flex flex-wrap flex-justify-space-between gap-l">
+                <div class="flex-1">
+                  <textarea
+                    class="width-full height-150 resize-none"
+                    name="message"
+                    id="message"
+                  ></textarea>
+                  <div>
+                    <p id="messageError" class="text-red"></p>
+                  </div>
+                </div>
+
+                <div class="flex-1 text-center sm-text-left">
+                  <button
+                    class="height-150 width-150 rounded bg-yellow bordered text-bold"
+                    type="submit"
+                  >
+                    Envoyer
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer
+      class="flex flex-justify-space-between top-bordered padding-y-s text-center flex-column gap-m md-flex md-flex-row md-text-left md-gap-0"
+    >
+      <div>
+        <h3>Téléphone</h3>
+        <p>
+          <a href="tel:099564333">099564333</a>
+        </p>
+      </div>
+      <div>
+        <h3>Email</h3>
+        <p>
+          <a href="mailto:francois@kadea.co">francois@kadea.co</a>
+        </p>
+      </div>
+      <div>
+        <h3>Suivez-moi</h3>
+        <p>
+          <a href="https://www.instagram.com/big_diss_blckb/">
+            <iconify-icon icon="mdi:instagram"></iconify-icon>
+          </a>
+          <a href="https://www.linkedin.com/in/fran%C3%A7ois-disubi-200653199/">
+            <iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+          </a>
+          <a href="https://github.com/fdis111">
+            <iconify-icon icon="mdi:github"></iconify-icon>
+          </a>
+        </p>
+      </div>
+      <div>
+        <p class="text-small">© 2023 By Francois Disubi</p>
+      </div>
+    </footer>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdZV6MpAAAAALKVCLIT41mbtv-Dh0ckxdFooYKV"></script>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "ebDFzzyzhaV9N0xiV",
+        });
+      })();
+    </script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
