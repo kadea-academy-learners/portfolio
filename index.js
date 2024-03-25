@@ -1,6 +1,6 @@
 const contactForm = document.querySelector("#contact-form");
-const serviceId = "service_nijtmhm";
-const templateId = "template_akb0afa";
+const serviceId = "Your id service here";
+const templateId = "Your templateId here";
 
 function isEmailValid(email) {
   return String(email)
